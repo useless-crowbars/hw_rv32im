@@ -1,0 +1,290 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 13:41:25  March 06, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		crowbar_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY MainScheme
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:41:25  MARCH 06, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_location_assignment PIN_K18 -to BLUE[3]
+set_location_assignment PIN_J22 -to BLUE[2]
+set_location_assignment PIN_K21 -to BLUE[1]
+set_location_assignment PIN_F1 -to BUTTON1
+set_location_assignment PIN_J21 -to GREEN[3]
+set_location_assignment PIN_K17 -to GREEN[2]
+set_location_assignment PIN_J17 -to GREEN[1]
+set_location_assignment PIN_H22 -to GREEN[0]
+set_location_assignment PIN_L21 -to HS
+set_location_assignment PIN_H21 -to RED[3]
+set_location_assignment PIN_H20 -to RED[2]
+set_location_assignment PIN_H17 -to RED[1]
+set_location_assignment PIN_H19 -to RED[0]
+set_location_assignment PIN_L22 -to VS
+set_location_assignment PIN_G21 -to CLOCK50MHZ
+set_location_assignment PIN_G3 -to BUTTON2
+set_location_assignment PIN_B18 -to hex00
+set_location_assignment PIN_F15 -to hex01
+set_location_assignment PIN_A19 -to hex02
+set_location_assignment PIN_B19 -to hex03
+set_location_assignment PIN_C19 -to hex04
+set_location_assignment PIN_D19 -to hex05
+set_location_assignment PIN_G15 -to hex06
+set_location_assignment PIN_D15 -to hex10
+set_location_assignment PIN_A16 -to hex11
+set_location_assignment PIN_B16 -to hex12
+set_location_assignment PIN_E15 -to hex13
+set_location_assignment PIN_A17 -to hex14
+set_location_assignment PIN_B17 -to hex15
+set_location_assignment PIN_F14 -to hex16
+set_location_assignment PIN_A13 -to hex20
+set_location_assignment PIN_B13 -to hex21
+set_location_assignment PIN_C13 -to hex22
+set_location_assignment PIN_A14 -to hex23
+set_location_assignment PIN_B14 -to hex24
+set_location_assignment PIN_E14 -to hex25
+set_location_assignment PIN_A15 -to hex26
+set_location_assignment PIN_E11 -to hex30
+set_location_assignment PIN_F11 -to hex31
+set_location_assignment PIN_H12 -to hex32
+set_location_assignment PIN_H13 -to hex33
+set_location_assignment PIN_G12 -to hex34
+set_location_assignment PIN_F12 -to hex35
+set_location_assignment PIN_F13 -to hex36
+set_location_assignment PIN_J1 -to LED0
+set_location_assignment PIN_J2 -to LED1
+set_location_assignment PIN_J3 -to LED2
+set_location_assignment PIN_H1 -to LED3
+set_location_assignment PIN_F2 -to LED4
+set_location_assignment PIN_E1 -to LED5
+set_location_assignment PIN_C1 -to LED6
+set_location_assignment PIN_C2 -to LED7
+set_location_assignment PIN_B2 -to LED8
+set_location_assignment PIN_B1 -to LED9
+set_location_assignment PIN_B12 -to GPU_CLK
+set_location_assignment PIN_AB16 -to dataGPIO0
+set_location_assignment PIN_AA16 -to dataGPIO1
+set_location_assignment PIN_AA15 -to dataGPIO2
+set_location_assignment PIN_AB15 -to dataGPIO3
+set_location_assignment PIN_AA14 -to dataGPIO4
+set_location_assignment PIN_AB14 -to dataGPIO5
+set_location_assignment PIN_AB13 -to dataGPIO6
+set_location_assignment PIN_AA13 -to dataGPIO7
+set_location_assignment PIN_AB10 -to outGPIO0
+set_location_assignment PIN_AA10 -to outGPIO1
+set_location_assignment PIN_AB8 -to outGPIO2
+set_location_assignment PIN_AA8 -to outGPIO3
+set_location_assignment PIN_AB5 -to controlGPIO0
+set_location_assignment PIN_AA5 -to controlGPIO1
+set_location_assignment PIN_AB4 -to controlGPIO2
+set_location_assignment PIN_AA4 -to controlGPIO3
+set_location_assignment PIN_P22 -to PS2_CLK
+set_location_assignment PIN_P21 -to PS2_DATA
+set_location_assignment PIN_A7 -to SDRAM_A[11]
+set_location_assignment PIN_B4 -to SDRAM_A[10]
+set_location_assignment PIN_B7 -to SDRAM_A[9]
+set_location_assignment PIN_C7 -to SDRAM_A[8]
+set_location_assignment PIN_A6 -to SDRAM_A[7]
+set_location_assignment PIN_B6 -to SDRAM_A[6]
+set_location_assignment PIN_C6 -to SDRAM_A[5]
+set_location_assignment PIN_A5 -to SDRAM_A[4]
+set_location_assignment PIN_C3 -to SDRAM_A[3]
+set_location_assignment PIN_B3 -to SDRAM_A[2]
+set_location_assignment PIN_A3 -to SDRAM_A[1]
+set_location_assignment PIN_C4 -to SDRAM_A[0]
+set_location_assignment PIN_B5 -to SDRAM_B0
+set_location_assignment PIN_A4 -to SDRAM_B1
+set_location_assignment PIN_G8 -to SDRAM_CAS
+set_location_assignment PIN_E6 -to SDRAM_CKE
+set_location_assignment PIN_E5 -to SDRAM_CLK
+set_location_assignment PIN_G7 -to SDRAM_CS
+set_location_assignment PIN_F10 -to SDRAM_D[15]
+set_location_assignment PIN_E10 -to SDRAM_D[14]
+set_location_assignment PIN_A10 -to SDRAM_D[13]
+set_location_assignment PIN_B10 -to SDRAM_D[12]
+set_location_assignment PIN_C10 -to SDRAM_D[11]
+set_location_assignment PIN_A9 -to SDRAM_D[10]
+set_location_assignment PIN_B9 -to SDRAM_D[9]
+set_location_assignment PIN_A8 -to SDRAM_D[8]
+set_location_assignment PIN_F8 -to SDRAM_D[7]
+set_location_assignment PIN_H9 -to SDRAM_D[6]
+set_location_assignment PIN_G9 -to SDRAM_D[5]
+set_location_assignment PIN_F9 -to SDRAM_D[4]
+set_location_assignment PIN_E9 -to SDRAM_D[3]
+set_location_assignment PIN_H10 -to SDRAM_D[2]
+set_location_assignment PIN_G10 -to SDRAM_D[1]
+set_location_assignment PIN_D10 -to SDRAM_D[0]
+set_location_assignment PIN_B8 -to SDRAM_DQMH
+set_location_assignment PIN_E7 -to SDRAM_DQML
+set_location_assignment PIN_F7 -to SDRAM_RAS
+set_location_assignment PIN_D6 -to SDRAM_WE
+set_global_assignment -name BDF_FILE SDRAMRefresh.bdf
+set_global_assignment -name VHDL_FILE sub.vhd
+set_global_assignment -name VHDL_FILE shift_right.vhd
+set_global_assignment -name VHDL_FILE shiftA.vhd
+set_global_assignment -name VHDL_FILE shift.vhd
+set_global_assignment -name VHDL_FILE ramtest.vhd
+set_global_assignment -name VHDL_FILE mux64x1.vhd
+set_global_assignment -name VHDL_FILE mux16x1.vhd
+set_global_assignment -name VHDL_FILE Multiplexer8x1.vhd
+set_global_assignment -name VHDL_FILE Multiplexer32x1.vhd
+set_global_assignment -name VHDL_FILE memblock.vhd
+set_global_assignment -name VHDL_FILE DC32.vhd
+set_global_assignment -name VHDL_FILE comparator_signed.vhd
+set_global_assignment -name VHDL_FILE comparator.vhd
+set_global_assignment -name VHDL_FILE cmpx.vhd
+set_global_assignment -name VHDL_FILE cmpux.vhd
+set_global_assignment -name VHDL_FILE add_pc.vhd
+set_global_assignment -name VHDL_FILE add.vhd
+set_global_assignment -name SOURCE_FILE sub.cmp
+set_global_assignment -name SOURCE_FILE shift_right.cmp
+set_global_assignment -name SOURCE_FILE shiftA.cmp
+set_global_assignment -name SOURCE_FILE shift.cmp
+set_global_assignment -name SOURCE_FILE ramtest.cmp
+set_global_assignment -name SOURCE_FILE MUX_32_5.cmp
+set_global_assignment -name SOURCE_FILE mux64x1.cmp
+set_global_assignment -name SOURCE_FILE mux16x1.cmp
+set_global_assignment -name SOURCE_FILE Multiplexer8x1.cmp
+set_global_assignment -name SOURCE_FILE Multiplexer32x1.cmp
+set_global_assignment -name SOURCE_FILE memblock.cmp
+set_global_assignment -name SOURCE_FILE DC_5.cmp
+set_global_assignment -name SOURCE_FILE DC32.cmp
+set_global_assignment -name SOURCE_FILE comparator_signed.cmp
+set_global_assignment -name SOURCE_FILE comparator.cmp
+set_global_assignment -name SOURCE_FILE cmpx.cmp
+set_global_assignment -name SOURCE_FILE cmpux.cmp
+set_global_assignment -name SOURCE_FILE add_pc.cmp
+set_global_assignment -name SOURCE_FILE add.cmp
+set_global_assignment -name QIP_FILE MUX_32_5.qip
+set_global_assignment -name QIP_FILE DC_5.qip
+set_global_assignment -name BDF_FILE RisingEdgeDetector.bdf
+set_global_assignment -name BDF_FILE ir_opcode.bdf
+set_global_assignment -name BDF_FILE 4B_8MB.bdf
+set_global_assignment -name VHDL_FILE ZEROEXT.vhd
+set_global_assignment -name VHDL_FILE SIGNEXT.vhd
+set_global_assignment -name VHDL_FILE RegisterX.vhd
+set_global_assignment -name VHDL_FILE MUX_32_5.vhd
+set_global_assignment -name VHDL_FILE MultiplexerX.vhd
+set_global_assignment -name VHDL_FILE Decoder32.vhd
+set_global_assignment -name VHDL_FILE DC_5.vhd
+set_global_assignment -name VHDL_FILE ConstantX.vhd
+set_global_assignment -name VHDL_FILE ComparatorX.vhd
+set_global_assignment -name BDF_FILE crowbar.bdf
+set_global_assignment -name BDF_FILE RegFile.bdf
+set_global_assignment -name QIP_FILE Decoder32.qip
+set_global_assignment -name QIP_FILE DC32.qip
+set_global_assignment -name QIP_FILE Multiplexer32x1.qip
+set_global_assignment -name QIP_FILE add.qip
+set_global_assignment -name QIP_FILE cmpx.qip
+set_global_assignment -name QIP_FILE cmpux.qip
+set_global_assignment -name QIP_FILE shift.qip
+set_global_assignment -name QIP_FILE shift_right.qip
+set_global_assignment -name QIP_FILE shiftA.qip
+set_global_assignment -name QIP_FILE sub.qip
+set_global_assignment -name VHDL_FILE SDRAMtest.vhd
+set_global_assignment -name VERILOG_FILE SDRAMVerilog.v
+set_global_assignment -name QIP_FILE Multiplexer8x1.qip
+set_global_assignment -name QIP_FILE add_pc.qip
+set_global_assignment -name QIP_FILE comparator.qip
+set_global_assignment -name QIP_FILE comparator_signed.qip
+set_global_assignment -name QIP_FILE ramtest.qip
+set_global_assignment -name QIP_FILE mux16x1.qip
+set_global_assignment -name QIP_FILE mux64x1.qip
+set_global_assignment -name BDF_FILE mymux32x1.bdf
+set_global_assignment -name VHDL_FILE mymux64x1.vhd
+set_global_assignment -name QIP_FILE memblock.qip
+set_global_assignment -name VHDL_FILE Komponente/7SEG/seven_segment_digit_interface.vhd
+set_global_assignment -name CDF_FILE output_files/Chain.cdf
+set_global_assignment -name BDF_FILE MainScheme.bdf
+set_global_assignment -name BDF_FILE Memory.bdf
+set_global_assignment -name QIP_FILE RAM.qip
+set_global_assignment -name BDF_FILE GPU.bdf
+set_global_assignment -name BDF_FILE output_files/InstantRisingEdge.bdf
+set_global_assignment -name BDF_FILE InstantRisingEdge.bdf
+set_global_assignment -name BDF_FILE Print.bdf
+set_global_assignment -name CDF_FILE output_files/Chain2.cdf
+set_global_assignment -name CDF_FILE output_files/output_files/Chain4.cdf
+set_global_assignment -name QIP_FILE GPURAM.qip
+set_global_assignment -name QIP_FILE RAMCyclone5.qip
+set_global_assignment -name QIP_FILE RAMcyclone3.qip
+set_global_assignment -name BDF_FILE RAM.bdf
+set_global_assignment -name BDF_FILE MYRAM.bdf
+set_global_assignment -name BDF_FILE RandomAccessMemory.bdf
+set_global_assignment -name BDF_FILE GPURAM.bdf
+set_global_assignment -name BDF_FILE GPIORAM.bdf
+set_global_assignment -name QIP_FILE DC4.qip
+set_global_assignment -name BDF_FILE SDRAM.bdf
+set_global_assignment -name BDF_FILE PS2RAM.bdf
+set_global_assignment -name BDF_FILE PS2.bdf
+set_global_assignment -name BDF_FILE keyboard.bdf
+set_global_assignment -name BDF_FILE Debouncer.bdf
+set_global_assignment -name BDF_FILE Register.bdf
+set_global_assignment -name BDF_FILE WriteSDRAM.bdf
+set_global_assignment -name BDF_FILE ReadSDRAM.bdf
+set_global_assignment -name QIP_FILE DC2.qip
+set_global_assignment -name BDF_FILE initSDRAM.bdf
+set_global_assignment -name QIP_FILE MUX38bit4x1.qip
+set_global_assignment -name BDF_FILE HexLedRAM.bdf
+set_location_assignment PIN_J6 -to SW0
+set_location_assignment PIN_H5 -to SW1
+set_global_assignment -name QIP_FILE dc3.qip
+set_location_assignment PIN_H6 -to SW2
+set_location_assignment PIN_D2 -to SW7
+set_location_assignment PIN_E4 -to SW6
+set_location_assignment PIN_E3 -to SW5
+set_location_assignment PIN_H7 -to SW4
+set_location_assignment PIN_J7 -to SW3
+set_global_assignment -name QIP_FILE dc5.qip
+set_global_assignment -name QIP_FILE L1cache.qip
+set_global_assignment -name BDF_FILE L1Cache.bdf
+set_global_assignment -name BDF_FILE CacheMemmory.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,246 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 184 528)
+	(text "Print" (rect 5 0 29 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 496 25 508)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "dataout[31..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "dataout[31..0]" (rect 21 27 98 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "mode_change" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "mode_change" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clk" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "clk" (rect 21 59 36 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "hex00" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex00" (rect 112 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "hex01" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex01" (rect 112 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48))
+	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "hex02" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex02" (rect 112 59 147 73)(font "Arial" (font_size 8)))
+		(line (pt 168 64)(pt 152 64))
+	)
+	(port
+		(pt 168 80)
+		(output)
+		(text "hex03" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex03" (rect 112 75 147 89)(font "Arial" (font_size 8)))
+		(line (pt 168 80)(pt 152 80))
+	)
+	(port
+		(pt 168 96)
+		(output)
+		(text "hex04" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex04" (rect 112 91 147 105)(font "Arial" (font_size 8)))
+		(line (pt 168 96)(pt 152 96))
+	)
+	(port
+		(pt 168 112)
+		(output)
+		(text "hex05" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex05" (rect 112 107 147 121)(font "Arial" (font_size 8)))
+		(line (pt 168 112)(pt 152 112))
+	)
+	(port
+		(pt 168 128)
+		(output)
+		(text "hex06" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex06" (rect 112 123 147 137)(font "Arial" (font_size 8)))
+		(line (pt 168 128)(pt 152 128))
+	)
+	(port
+		(pt 168 144)
+		(output)
+		(text "hex10" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex10" (rect 112 139 147 153)(font "Arial" (font_size 8)))
+		(line (pt 168 144)(pt 152 144))
+	)
+	(port
+		(pt 168 160)
+		(output)
+		(text "hex11" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex11" (rect 112 155 147 169)(font "Arial" (font_size 8)))
+		(line (pt 168 160)(pt 152 160))
+	)
+	(port
+		(pt 168 176)
+		(output)
+		(text "hex12" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex12" (rect 112 171 147 185)(font "Arial" (font_size 8)))
+		(line (pt 168 176)(pt 152 176))
+	)
+	(port
+		(pt 168 192)
+		(output)
+		(text "hex13" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex13" (rect 112 187 147 201)(font "Arial" (font_size 8)))
+		(line (pt 168 192)(pt 152 192))
+	)
+	(port
+		(pt 168 208)
+		(output)
+		(text "hex14" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex14" (rect 112 203 147 217)(font "Arial" (font_size 8)))
+		(line (pt 168 208)(pt 152 208))
+	)
+	(port
+		(pt 168 224)
+		(output)
+		(text "hex15" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex15" (rect 112 219 147 233)(font "Arial" (font_size 8)))
+		(line (pt 168 224)(pt 152 224))
+	)
+	(port
+		(pt 168 240)
+		(output)
+		(text "hex16" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex16" (rect 112 235 147 249)(font "Arial" (font_size 8)))
+		(line (pt 168 240)(pt 152 240))
+	)
+	(port
+		(pt 168 256)
+		(output)
+		(text "hex20" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex20" (rect 112 251 147 265)(font "Arial" (font_size 8)))
+		(line (pt 168 256)(pt 152 256))
+	)
+	(port
+		(pt 168 272)
+		(output)
+		(text "hex21" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex21" (rect 112 267 147 281)(font "Arial" (font_size 8)))
+		(line (pt 168 272)(pt 152 272))
+	)
+	(port
+		(pt 168 288)
+		(output)
+		(text "hex22" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex22" (rect 112 283 147 297)(font "Arial" (font_size 8)))
+		(line (pt 168 288)(pt 152 288))
+	)
+	(port
+		(pt 168 304)
+		(output)
+		(text "hex23" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex23" (rect 112 299 147 313)(font "Arial" (font_size 8)))
+		(line (pt 168 304)(pt 152 304))
+	)
+	(port
+		(pt 168 320)
+		(output)
+		(text "hex24" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex24" (rect 112 315 147 329)(font "Arial" (font_size 8)))
+		(line (pt 168 320)(pt 152 320))
+	)
+	(port
+		(pt 168 336)
+		(output)
+		(text "hex25" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex25" (rect 112 331 147 345)(font "Arial" (font_size 8)))
+		(line (pt 168 336)(pt 152 336))
+	)
+	(port
+		(pt 168 352)
+		(output)
+		(text "hex26" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex26" (rect 112 347 147 361)(font "Arial" (font_size 8)))
+		(line (pt 168 352)(pt 152 352))
+	)
+	(port
+		(pt 168 368)
+		(output)
+		(text "hex30" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex30" (rect 112 363 147 377)(font "Arial" (font_size 8)))
+		(line (pt 168 368)(pt 152 368))
+	)
+	(port
+		(pt 168 384)
+		(output)
+		(text "hex31" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex31" (rect 112 379 147 393)(font "Arial" (font_size 8)))
+		(line (pt 168 384)(pt 152 384))
+	)
+	(port
+		(pt 168 400)
+		(output)
+		(text "hex32" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex32" (rect 112 395 147 409)(font "Arial" (font_size 8)))
+		(line (pt 168 400)(pt 152 400))
+	)
+	(port
+		(pt 168 416)
+		(output)
+		(text "hex33" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex33" (rect 112 411 147 425)(font "Arial" (font_size 8)))
+		(line (pt 168 416)(pt 152 416))
+	)
+	(port
+		(pt 168 432)
+		(output)
+		(text "hex34" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex34" (rect 112 427 147 441)(font "Arial" (font_size 8)))
+		(line (pt 168 432)(pt 152 432))
+	)
+	(port
+		(pt 168 448)
+		(output)
+		(text "hex35" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex35" (rect 112 443 147 457)(font "Arial" (font_size 8)))
+		(line (pt 168 448)(pt 152 448))
+	)
+	(port
+		(pt 168 464)
+		(output)
+		(text "hex36" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "hex36" (rect 112 459 147 473)(font "Arial" (font_size 8)))
+		(line (pt 168 464)(pt 152 464))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 496))
+	)
+)
